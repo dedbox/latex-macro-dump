@@ -1,0 +1,8 @@
+*.sty
+*.aux
+*.fdb*
+*.fls
+*.log
+*.pdf
+*.gz
+*5.tex
