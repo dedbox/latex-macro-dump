@@ -1,0 +1,26 @@
+% for nicer wide tildes
+\usepackage{stackengine}
+\usepackage{scalerel}
+
+\newcommand{\id}{\mathrm{id}}
+
+\newcommand{\To}{\mathrm{to}}
+\newcommand{\Fro}{\mathrm{fro}}
+
+\newcommand{\ev}{\varepsilon}
+\newcommand{\after}{\circ}
+
+\renewcommand{\C}{\mathbb{C}}
+
+\newenvironment{Cases}{\begin{description}[style=unboxed,leftmargin=0cm,listparindent=\parindent,parsep=0pt]}{\end{description}}
+\newcommand{\Case}[1]{\item[#1]\hfill\\\indent}
+
+\newcommand{\transpose}[1]{\tilde{#1}}
+\newcommand{\Transpose}[2]{\stackon[0pt]{$#2$}{\hstretch{#1}{\sim}}}
+
+\newcommand{\Setof}[1]{\left\{#1\right\}}
+\newcommand{\true}{\top}
+\newcommand{\false}{\bot}
+
+\renewcommand{\Fix}{\mathrm{fix}}
+\newcommand{\Pow}{\mathcal{P}}
